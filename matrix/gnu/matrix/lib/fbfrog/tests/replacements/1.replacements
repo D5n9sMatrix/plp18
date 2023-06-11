@@ -1,0 +1,2 @@
+convert c: #define A 1
+to fb: replaced A

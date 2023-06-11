@@ -1,0 +1,2 @@
+/usr/bin/ar qc libplp18.a CMakeFiles/plp18.dir/plp18.cpp.o
+/usr/bin/ranlib libplp18.a

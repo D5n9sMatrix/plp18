@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/if/if-missing-condition.h(2): missing expression
+    # if 
+         ^

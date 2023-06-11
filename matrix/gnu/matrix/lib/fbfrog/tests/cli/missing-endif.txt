@@ -1,0 +1,3 @@
+<command line>(1): missing -endif for this
+    ./fbfrog tests/cli/missing-endif.h -ifdef A
+                                       ^~~~~~

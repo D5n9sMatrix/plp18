@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/lex/counts-lines-for-escaped-eols.h(9): expected ')' to close the parameter list in this macro declaration but found 'error'
+    # define m ( provoke error and check the line number in the produced message
+                         ^~~~~

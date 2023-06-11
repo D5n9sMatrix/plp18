@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/define-missing-id.h(2): missing identifier behind #define
+    # define 
+             ^

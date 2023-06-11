@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/expand/call-args-expect0-given1.h(3): expected ')' to close macro call argument list but found 'a'
+    m1 ( a )
+         ^

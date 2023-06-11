@@ -1,0 +1,34 @@
+[Project]
+Version=3
+Description=plp18
+Api=
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=0
+ResExport=
+CompileIfNewer=0
+IncVersion=0
+RunCmd=0
+[Make]
+Current=1
+1=Windows GUI,fbc -s gui
+Recompile=2
+Module=Module Build,fbc -c
+Output=plp18
+Run=
+Delete=
+[TabOrder]
+TabOrder=1,0
+[File]
+1=plp18.bas
+2=plp18.rc
+3=plp18.bi
+4=plp18.txt
+5=gnu\matrix\bin\client\$\$dynamic\$dynamic.bas
+[BreakPoint]
+4=
+1=
+3=
+5=
+[FileInfo]
+1=0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

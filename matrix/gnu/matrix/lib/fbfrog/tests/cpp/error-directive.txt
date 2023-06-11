@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/error-directive.h(2): #error
+    # error "Something" 
+      ^~~~~

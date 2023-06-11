@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/lex/open-include-literal.h(2): missing '>' to finish #include <...
+    # include < foo 
+                    ^

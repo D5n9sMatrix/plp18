@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/unknown-pragma-2.h(8): unknown #pragma
+    # pragma ? ? ? 
+             ^

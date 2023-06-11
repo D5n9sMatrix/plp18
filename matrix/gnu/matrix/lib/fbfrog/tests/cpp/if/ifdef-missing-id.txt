@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/if/ifdef-missing-id.h(2): missing identifier behind 'ifdef'
+    # ifdef 
+            ^

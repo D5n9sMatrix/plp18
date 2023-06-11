@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/if/elif-after-else.h(4): #elif after #else
+    # elif 0 
+      ^~~~

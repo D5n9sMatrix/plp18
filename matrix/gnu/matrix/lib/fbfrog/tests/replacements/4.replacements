@@ -1,0 +1,19 @@
+# testing various replacements file syntax
+
+convert c: #define A 1
+to fb: replaced A
+
+convert c: #define B 2
+to fb:
+	replaced B
+
+convert c: void f(void);
+to fb:
+	private sub f()
+		doSomething()
+	end sub
+
+convert c: #define D 3
+to fb:
+    #define replacedD _
+        foo + bar

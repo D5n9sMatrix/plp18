@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/expand/merge/missing-operands-objectlike.h(2): ## merge operator at beginning of macro body, missing operand to merge with
+    m [TK_BEGIN] ## [TK_END]
+                 ^~

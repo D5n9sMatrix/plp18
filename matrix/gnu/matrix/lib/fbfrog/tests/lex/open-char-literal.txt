@@ -1,0 +1,2 @@
+[ 1/23] linux-x86
+tests/lex/open-char-literal.h(2): string/char literal left open

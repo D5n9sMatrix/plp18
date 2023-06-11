@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/expand/merge/missing-rhs.h(2): ## merge operator at end of macro body, missing operand to merge with
+    m ( 0 ) [TK_BEGIN] 0 ## [TK_END]
+                         ^~

@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/expand/call-args-expect1-given2.h(3): too many arguments for 'm' macro call: 2 given, 1 needed
+    m ( a , b )
+              ^

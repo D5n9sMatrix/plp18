@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/unknown-pragma.h(2): unknown #pragma
+    # pragma foo 
+             ^~~

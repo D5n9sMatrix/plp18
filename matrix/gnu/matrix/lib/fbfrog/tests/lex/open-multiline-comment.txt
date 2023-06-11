@@ -1,0 +1,2 @@
+[ 1/23] linux-x86
+tests/lex/open-multiline-comment.h(4): comment left open

@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/if/endif-missing-2.h(3): missing #endif
+    # if 1 
+           ^

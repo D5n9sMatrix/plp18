@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/if/duplicate-else.h(4): #else after #else
+    # else 
+      ^~~~

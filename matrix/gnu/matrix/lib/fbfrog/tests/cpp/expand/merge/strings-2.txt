@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/expand/merge/strings-2.h(2): ## merge operator cannot merge '"a"' and '"b"'
+    m [TK_BEGIN] "a" ## "b" [TK_END]
+                     ^~

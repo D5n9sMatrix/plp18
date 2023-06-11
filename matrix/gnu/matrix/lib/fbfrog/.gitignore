@@ -1,0 +1,9 @@
+/config.mk
+/fbfrog
+/fbfrog.exe
+/src/obj/*.a
+/src/obj/*.o
+/tests/run
+/tests/run.exe
+/unittests/run
+/unittests/run.exe

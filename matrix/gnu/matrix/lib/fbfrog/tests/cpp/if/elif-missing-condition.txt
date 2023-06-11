@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/if/elif-missing-condition.h(3): missing expression
+    # elif 
+           ^

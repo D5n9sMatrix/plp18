@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/if/float.h(3): float literal in CPP expression
+    # if 1.0 == 2.0 
+         ^~~

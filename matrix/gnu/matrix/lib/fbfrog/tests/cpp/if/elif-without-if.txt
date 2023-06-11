@@ -1,0 +1,4 @@
+[ 1/23] linux-x86
+tests/cpp/if/elif-without-if.h(2): #elif without #if
+    # elif 0 
+      ^~~~

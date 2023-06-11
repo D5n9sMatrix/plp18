@@ -1,0 +1,48 @@
+Goals:
+- build & analyze AST on the fly as user types in the source code
+- provide code completition
+  * functions
+  * variables
+  * arguments
+  * keywords
+- provide errors & warnings
+  * wrong type
+  * wrong number of arguments
+  * undeclared function
+  * undeclared variable
+
+Hurdles:
+- scintilla lexer only receives input characters
+- scintilla lexes entire lines at once
+- scintilla re-lexes the source following a modification
+- text cut, paste are handled outside.
+- need to bridge subclass of wxStyledTextCtrl & LexerFreeBasic
+- lexing must be possible independently without invoking scintilla
+  * include files
+  * related files in the project
+  * caching
+
+Need:
+- modifiable AST
+- ast nodes are fault tolerant - can be in incomplete/invalid state
+- apply error state only after new line ?
+- ast nodes preserve position and case
+- easy to move ast around
+- line lookup cache
+- symbol table
+- scope aweness - to provide proper completition list
+
+
+- trigger parse only after full identifier is written
+- trigger sem. analyses only after a new line
+- from parser use EXPECT to provide next expected token to the user
+  if it matches the cursor position
+- lex only changes & reuse tokens
+  * after inserting a character to an identifier then create token once
+    and later only update
+  * when inserting text should only scan the inserted range
+  * when deleting text should only remove token range
+  * when deleting a character modify existing token until word is deleted
+    only then remove the token
+  * when deleting / adding a token that affects multiple lines - set range that
+    must be updated
